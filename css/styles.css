@@ -19,10 +19,14 @@ img {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px 2px;
+    gap: 24px;
 }
 
 .gallery-link {
     cursor: url('../icon/bxs_hand-down.svg'), pointer;
+}
+
+.gallery-image:hover {
+    width: 372px;
 }
 
